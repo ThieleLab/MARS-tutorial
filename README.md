@@ -11,5 +11,8 @@ This tutorial guides you through using the MARS Streamlit application
 
 <a name="user-interface-walkthrough"></a>
 ## User Interface Walkthrough
-![Example Image](images/example.png)
+![Opening Image](images/Opening.png)
+![Middle Image](images/Middle.png)
+![Middle2 Image](images/Middle2.png)
+![End Image](images/End.png)
 
