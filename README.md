@@ -1,3 +1,5 @@
+![MARS Image](images/MARS.png)
+
 # MARS-tutorial
 This tutorial guides you through using the MARS Streamlit application
 
@@ -15,4 +17,8 @@ This tutorial guides you through using the MARS Streamlit application
 ![Middle Image](images/Middle.png)
 ![Middle2 Image](images/Middle2.png)
 ![End Image](images/End.png)
+
+<a name="data-input"></a>
+## Data Input
+See files directory for examples of acceptable input files
 
