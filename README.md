@@ -5,6 +5,12 @@ This tutorial guides you through using the MARS Streamlit application
 
 ## Table of Contents
 1. [User Interface Walkthrough](#user-interface-walkthrough)
+    1. [Optional Parameters](#optional-parameters)
+    2. [File Upload Sections](#file-upload-sections)
+    3. [Getting Started](#getting-started)
+    4. [Results Summary](#results-summary)
+    5. [Results Table](#results-table)
+    6. [Metric Table](#metric-table)
 2. [Data Input](#data-input)
 3. [Using the Application](#using-the-application)
 4. [Interpreting Results](#interpreting-results)
@@ -15,6 +21,7 @@ This tutorial guides you through using the MARS Streamlit application
 ## User Interface Walkthrough
 ![Opening Image](images/Opening.png)
 
+<a name="optional-parameters"></a>
 ### Optional Parameters
 
 **Cutoff Slider**: This slider allows you to set a cutoff value for the relative abundance data. Any taxa with values below this threshold can be ignored or considered as noise.
@@ -28,6 +35,7 @@ This tutorial guides you through using the MARS Streamlit application
 
 **Skip ANT Checkbox**: If you want to process your data without using the Automated NCBI Taxonomy (ANT) tool, you can check this box.
 
+<a name="file-upload-sections"></a>
 ### File Upload Sections
 
 There are four main areas where you can upload different types of files:
@@ -48,6 +56,7 @@ Each file upload section has a limit of 200MB per file.
 
 After you've uploaded your files, the application will process the data based on MARS and ANT algorithms, and you'll be able to download the results or view them within the interface.
 
+<a name="getting-started"></a>
 ### Getting Started
 
 To begin using the application:
@@ -66,7 +75,8 @@ The Streamlit application will provide real-time updates on the processing statu
 
 ![Middle2 Image](images/Middle2.png)
 
-### Results Summary and Data Download
+<a name="results-summary"></a>
+### Results Summary 
 
 After the processing is complete, the application displays a summary of the results along with options to download the data. Here's an explanation of each element visible in this section:
 
@@ -74,6 +84,7 @@ After the processing is complete, the application displays a summary of the resu
 
 **Number of homosynonyms found in resource**: Displays the count of homosynonymous terms identified, `6` in this case, which helps in understanding the complexity of taxonomic naming in your dataset.
 
+<a name="results-table"></a>
 ### Results Table
 The results table is divided into several columns, each providing valuable information:
 
@@ -82,14 +93,13 @@ The results table is divided into several columns, each providing valuable infor
 **NCBI Taxonomic IDs**: Provides the unique identifier assigned to each species by the NCBI Taxonomy database.
 **All Found Homosynonyms**: Lists all the homosynonyms or alternative names found for each species.
 
-### Data Download
-
 **Download Species**: This button allows you to download the list of species and related information processed by the application.
 
 ![End Image](images/End.png)
 
 Once your data has gone through normalization and the presence checks in the resource, the application will display the outputs as follows:
 
+<a name="metric-table"></a>
 ### Metric Table
 
 The metric table provides a detailed breakdown of the normalized data across different taxonomic levels:
