@@ -15,7 +15,7 @@ This tutorial guides you through using the MARS Streamlit application
 ## User Interface Walkthrough
 ![Opening Image](images/Opening.png)
 
-### Optional Parameters
+### Optional Parameters
 
 **Cutoff Slider**: This slider allows you to set a cutoff value for the relative abundance data. Any taxa with values below this threshold can be ignored or considered as noise.
 
@@ -28,7 +28,7 @@ This tutorial guides you through using the MARS Streamlit application
 
 **Skip ANT Checkbox**: If you want to process your data without using the Automated NCBI Taxonomy (ANT) tool, you can check this box.
 
-### File Upload Sections
+### File Upload Sections
 
 There are four main areas where you can upload different types of files:
 
@@ -48,7 +48,7 @@ Each file upload section has a limit of 200MB per file.
 
 After you've uploaded your files, the application will process the data based on MARS and ANT algorithms, and you'll be able to download the results or view them within the interface.
 
-### Getting Started
+### Getting Started
 
 To begin using the application:
 
@@ -83,13 +83,15 @@ The results table is divided into several columns, each providing valuable infor
 **All Found Homosynonyms**: Lists all the homosynonyms or alternative names found for each species.
 
 ### Data Download
+
 **Download Species**: This button allows you to download the list of species and related information processed by the application.
 
 ![End Image](images/End.png)
 
 Once your data has gone through normalization and the presence checks in the resource, the application will display the outputs as follows:
 
-### Metric Table
+### Metric Table
+
 The metric table provides a detailed breakdown of the normalized data across different taxonomic levels:
 
 **Normalized**: This column shows the normalized values, indicating the relative abundance or presence of taxa within the sample after normalization.
