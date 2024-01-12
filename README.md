@@ -98,8 +98,11 @@ After the processing is complete, the application displays a summary of the resu
 The results table is divided into several columns, each providing valuable information:
 
 **Species in Resource**: Lists the species that were successfully mapped to the resource database from your dataset.
+
 **Homosynonyms in Resource**: Shows if any alternative names (homosynonyms) that correspond to the primary species name were found in the resource.
+
 **NCBI Taxonomic IDs**: Provides the unique identifier assigned to each species by the NCBI Taxonomy database.
+
 **All Found Homosynonyms**: Lists all the homosynonyms or alternative names found for each species.
 
 **Download Species**: This button allows you to download the list of species and related information processed by the application.
@@ -114,8 +117,11 @@ Once your data has gone through normalization and the presence checks in the res
 The metric table provides a detailed breakdown of the normalized data across different taxonomic levels:
 
 **Normalized**: This column shows the normalized values, indicating the relative abundance or presence of taxa within the sample after normalization.
+
 **Present**: The number of times a taxon appears in the dataset (i.e., is present).
+
 **Absent**: A count of how many taxa expected in the resource were not found in the dataset.
+
 **Metrics**: This is a placeholder that suggests additional metrics may be displayed or available for download.
 
 The table headers (Kingdom, Phylum, Class, Order, Family, Genus, Species) represent different taxonomic classifications of the organisms in your dataset. Each row under these headers shows the corresponding data for each taxon, such as 'Archaea' or 'Bacteria', and their respective normalized values and presence across various taxonomic categories.
@@ -140,7 +146,9 @@ Each file should follow the structure of our example templates to ensure compati
 ### Preparing Your Data
 
 **Review Example Files**: Before preparing your data, review the example files provided in the `files` directory of our tutorial GitHub page. These files represent the desired format and structure your data should emulate.
+
 **Format Your Data**: Arrange your data to match the format of the example files. This typically involves ensuring that the columns and headers in your data correspond correctly with those in the example files.
+
 **Save Your File**: Once your data matches the template format, save your file in one of the accepted formats (CSV, TXT, XLSX).
 
 <a name="uploading-your-data"></a>
@@ -168,10 +176,13 @@ Should you encounter any difficulties while using the MARS-ANT Streamlit applica
 
 <a name="common-issues-and-immediate-steps"></a>
 ### Common Issues and Immediate Steps
+
 Before reaching out for support, consider the following common issues and immediate steps you can take:
 
 **Data Format Errors**: Ensure your data files strictly adhere to the formats outlined in the 'Data Input' section. Matching the example files' structure is crucial.
+
 **Upload Failures**: If your data fails to upload, check that the file size does not exceed the 200MB limit and that you are using the correct file type (CSV, TXT, XLSX).
+
 **Processing Errors**: Make sure that all required fields in your data are filled and that there are no missing values where the application expects data.
 
 <a name="contact-support"></a>
@@ -211,6 +222,7 @@ A: Currently, the application is designed to work with CSV, TXT, and XLSX format
 ### Glossary of Terms
 
 **Taxonomic ID**: A unique identifier for a species used in databases like NCBI.
+
 **Homosynonyms**: Different names that refer to the same taxonomic entity.
 
 <a name="additional-resources"></a>
