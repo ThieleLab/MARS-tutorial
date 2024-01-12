@@ -56,7 +56,7 @@ There are four main areas where you can upload different types of files:
 Drag and drop or browse to upload your taxonomy table here. The file should be in one of the following formats: CSV, TSV, TXT, XLSX.
 
 2. **Upload Feature Table**
-Here you can upload the feature table, which typically includes quantitative data on the features (like OTUs, taxa, or genes) identified in your samples.
+Here you can upload the feature table, which includes quantitative data on the features identified in your samples.
 
 3. **Upload Combined Table**
 If you have a combined table that includes both taxonomy and feature data, you can upload it in this section.
@@ -90,7 +90,7 @@ The Streamlit application will provide real-time updates on the processing statu
 <a name="results-summary"></a>
 ### Results Summary 
 
-After the processing is complete, the application displays a summary of the results along with options to download the data. Here's an explanation of each element visible in this section:
+After the processing is complete, the application displays a summary of the results along with options to download the data. Here's an explanation of each element visible in picture above:
 
 **Number of species found in resource**: This indicates the total number of unique species identified in the selected resource from your dataset, which in this case is `313`.
 
@@ -117,24 +117,24 @@ Once your data has gone through normalization and the presence checks in the res
 <a name="metric-table"></a>
 ### Metric Table
 
-The metric table provides a detailed breakdown of the normalized data across different taxonomic levels:
+The metric table provides a detailed breakdown of the data across different taxonomic levels:
 
 **Normalized**: This column shows the normalized values, indicating the relative abundance or presence of taxa within the sample after normalization.
 
-**Present**: The number of times a taxon appears in the dataset (i.e., is present).
+**Present**: The normalized information for the taxa present in the resource.
 
-**Absent**: A count of how many taxa expected in the resource were not found in the dataset.
+**Absent**: The normalized information for the taxa **not** present in the resource.
 
-**Metrics**: This is a placeholder that suggests additional metrics may be displayed or available for download.
+**Metrics**: Metrics for your data such as alpha diversity.
 
-The table headers (Kingdom, Phylum, Class, Order, Family, Genus, Species) represent different taxonomic classifications of the organisms in your dataset. Each row under these headers shows the corresponding data for each taxon, such as 'Archaea' or 'Bacteria', and their respective normalized values and presence across various taxonomic categories.
+The table headers (Kingdom, Phylum, Class, Order, Family, Genus, Species) represent different taxonomic classifications of the organisms in your dataset. Each row under these headers shows the corresponding data for each taxon.
 
-**Download Kingdom**: This button allows you to download the information related to the 'Kingdom' taxonomic level. Presumably, similar buttons for other taxonomic levels would allow you to download those specific datasets as well.
+**Download Kingdom**: This button allows you to download the information related to the 'Kingdom' taxonomic level. There are similar buttons for other taxonomic levels that allow you to download those specific datasets as well.
 
 <a name="data-input"></a>
 ## Data Input
 
-Proper data formatting is crucial for the successful operation of the MARS-ANT Streamlit application. This section will guide you through the process of preparing and uploading your data.
+Proper data formatting is crucial for the successful operation of the MARS Streamlit application. This section will guide you through the process of preparing and uploading your data.
 
 <a name="accepted-data-formats"></a>
 ### Accepted Data Formats
@@ -170,12 +170,12 @@ If you're new to the application or would like to run a test analysis, you can u
 1. Navigate to the `files` directory on the tutorial GitHub page.
 2. Download the example files to your local machine.
 Follow the 'Uploading Your Data' steps mentioned above, using the example files you downloaded.
-3. Remember, the accuracy of the application's output is dependent on the correct formatting of the input data. Please ensure your data accurately reflects the structure of the provided examples for optimal results.
+3. Remember, the functioning of the application is dependent on the correct formatting of the input data. Please ensure your data accurately reflects the structure of the provided examples for results.
 
 <a name="troubleshooting"></a>
 ## Troubleshooting
 
-Should you encounter any difficulties while using the MARS-ANT Streamlit application, we offer the following steps to help resolve your issues:
+Should you encounter any difficulties while using the MARS Streamlit application, we offer the following steps to help resolve your issues:
 
 <a name="common-issues-and-immediate-steps"></a>
 ### Common Issues and Immediate Steps
