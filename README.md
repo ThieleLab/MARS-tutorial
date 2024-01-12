@@ -12,10 +12,19 @@ This tutorial guides you through using the MARS Streamlit application
     5. [Results Table](#results-table)
     6. [Metric Table](#metric-table)
 2. [Data Input](#data-input)
-3. [Using the Application](#using-the-application)
-4. [Interpreting Results](#interpreting-results)
-5. [Troubleshooting](#troubleshooting)
-6. [Appendix](#appendix)
+    1. [Accepted Data Formats](#accepted-data-formats)
+    2. [Preparing Your Data](#preparing-your-data)
+    3. [Upload Your Data](#uploading-your-data)
+    4. [Using Example Files](#using-example-files)
+3. [Troubleshooting](#troubleshooting)
+    1. [Common Issues and Immediate Steps](#common-issuees-and-immediate-steps)
+    2. [Contact Support](#contact-support)
+    3. [Report an Issue on GitHub](#report-an-issue-on-github)
+4. [Appendix](#appendix)
+    1. [Frequently Asked Questions (FAQS)](#faqs)
+    2. [Glossary of Terms](#glossary-of-terms)
+    3. [Additional Resources](#additional-resources)
+    4. [Acknowledgments](#acknowlegments)
 
 <a name="user-interface-walkthrough"></a>
 ## User Interface Walkthrough
@@ -115,17 +124,102 @@ The table headers (Kingdom, Phylum, Class, Order, Family, Genus, Species) repres
 
 <a name="data-input"></a>
 ## Data Input
-See files directory for examples of acceptable input files
 
-<a name="interpreting-results"></a>
-## Interpreting Results
-See files directory for examples of acceptable input files
+Proper data formatting is crucial for the successful operation of the MARS-ANT Streamlit application. This section will guide you through the process of preparing and uploading your data.
+
+<a name="accepted-data-formats"></a>
+### Accepted Data Formats
+Our application accepts the following file types for data input:
+
+* CSV (Comma-Separated Values)
+* TXT (Plain Text)
+* XLSX (Excel Spreadsheet)
+Each file should follow the structure of our example templates to ensure compatibility with the application.
+
+<a name="preparing-your-data"></a>
+### Preparing Your Data
+
+**Review Example Files**: Before preparing your data, review the example files provided in the `files` directory of our tutorial GitHub page. These files represent the desired format and structure your data should emulate.
+**Format Your Data**: Arrange your data to match the format of the example files. This typically involves ensuring that the columns and headers in your data correspond correctly with those in the example files.
+**Save Your File**: Once your data matches the template format, save your file in one of the accepted formats (CSV, TXT, XLSX).
+
+<a name="uploading-your-data"></a>
+### Uploading Your Data
+To upload your data to the application:
+
+1. Click on the 'Browse files' button in the corresponding data upload section of the application.
+2. Navigate to the location on your computer where your data file is saved.
+3. Select the file and click 'Open' to upload it to the application.
+If you encounter any issues with data formatting or the upload process, please refer to the 'Troubleshooting' section of this tutorial.
+
+<a name="using-example-files"></a>
+### Using Example Files
+If you're new to the application or would like to run a test analysis, you can use the example files provided. Here's how:
+
+1. Navigate to the `files` directory on the tutorial GitHub page.
+2. Download the example files to your local machine.
+Follow the 'Uploading Your Data' steps mentioned above, using the example files you downloaded.
+3. Remember, the accuracy of the application's output is dependent on the correct formatting of the input data. Please ensure your data accurately reflects the structure of the provided examples for optimal results.
 
 <a name="troubleshooting"></a>
 ## Troubleshooting
-See files directory for examples of acceptable input files
+
+Should you encounter any difficulties while using the MARS-ANT Streamlit application, we offer the following steps to help resolve your issues:
+
+<a name="common-issues-and-immediate-steps"></a>
+### Common Issues and Immediate Steps
+Before reaching out for support, consider the following common issues and immediate steps you can take:
+
+**Data Format Errors**: Ensure your data files strictly adhere to the formats outlined in the 'Data Input' section. Matching the example files' structure is crucial.
+**Upload Failures**: If your data fails to upload, check that the file size does not exceed the 200MB limit and that you are using the correct file type (CSV, TXT, XLSX).
+**Processing Errors**: Make sure that all required fields in your data are filled and that there are no missing values where the application expects data.
+
+<a name="contact-support"></a>
+### Contact Support
+
+If after these steps your issue remains unresolved, please contact us for further assistance:
+
+**Email Support**: For direct support, email Timothy.Hulshof@universityofgalway.ie. When emailing, please provide a detailed description of the issue, the steps you've taken to resolve it, and any error messages you've encountered.
+
+<a name="report-an-issue-on-github"></a>
+### Report an Issue on GitHub
+For technical issues that may benefit from public discussion or for enhancement suggestions, create an issue on our GitHub repository:
+
+1. Visit the MARS GitHub repository issue page.
+2. Click on the 'New issue' button.
+3. Provide a title and a detailed description of the issue or enhancement suggestion.
+Submit the issue.
+4. Creating an issue on GitHub will notify our developers, and we will investigate the problem as soon as possible. Additionally, other users may contribute to resolving the issue or provide temporary workarounds.
 
 <a name="appendix"></a>
 ## Appendix
-See files directory for examples of acceptable input files
+
+<a name="faqs"></a>
+### Frequently Asked Questions (FAQs)
+
+**Q: What should I do if the data processing takes longer than expected?**
+A: Data processing time can vary based on server load and data complexity. If processing takes an unusually long time, try the following:
+
+1. Ensure that your internet connection is stable.
+2. Refresh the application page and attempt to upload your data again.
+3. If the problem persists, please reach out for support or report an issue on our GitHub.
+
+**Q: Can I use data formats other than CSV, TXT, or XLSX?**
+A: Currently, the application is designed to work with CSV, TXT, and XLSX formats only. Please convert your data to one of these formats before uploading.
+
+<a name="glossary-of-terms"></a>
+### Glossary of Terms
+
+**Taxonomic ID**: A unique identifier for a species used in databases like NCBI.
+**Homosynonyms**: Different names that refer to the same taxonomic entity.
+
+<a name="additional-resources"></a>
+### Additional Resources
+
+**Publication Reference**: To understand the scientific background and algorithms, refer to our publication.
+
+<a name="acknowledgments"></a>
+### Acknowledgments
+
+We would like to acknowledge
 
