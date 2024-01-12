@@ -38,8 +38,11 @@ This tutorial guides you through using the MARS Streamlit application
 **Output Format**: Here you can select the desired output file format for your processed data. The options include:
 
 **csv**: A comma-separated values file which is widely used and compatible with most spreadsheet applications.
+
 **txt**: A plain text file.
+
 **xlsx**: An Excel spreadsheet file format.
+
 **Stratification File Upload**: You can drag and drop or browse to upload a stratification file. This file should contain groupings or classifications within your data, which can be useful for downstream analysis.
 
 **Skip ANT Checkbox**: If you want to process your data without using the Automated NCBI Taxonomy (ANT) tool, you can check this box.
