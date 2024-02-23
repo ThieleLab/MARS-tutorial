@@ -23,8 +23,6 @@ This tutorial guides you through using the MARS Streamlit application
 4. [Appendix](#appendix)
     1. [Frequently Asked Questions (FAQS)](#faqs)
     2. [Glossary of Terms](#glossary-of-terms)
-    3. [Additional Resources](#additional-resources)
-    4. [Acknowledgments](#acknowlegments)
 
 <a name="user-interface-walkthrough"></a>
 ## User Interface Walkthrough
@@ -227,14 +225,4 @@ A: Currently, the application is designed to work with CSV, TXT, and XLSX format
 **Taxonomic ID**: A unique identifier for a species used in databases like NCBI.
 
 **Homosynonyms**: Different names that refer to the same taxonomic entity.
-
-<a name="additional-resources"></a>
-### Additional Resources
-
-**Publication Reference**: To understand the scientific background and algorithms, refer to our publication.
-
-<a name="acknowledgments"></a>
-### Acknowledgments
-
-We would like to acknowledge
 
